@@ -22,3 +22,52 @@ body {
     font-size: 1.6rem;
     line-height: 2; /** line spacing **/
 }
+
+/** Globals **/
+.container {
+    /*max-width: 120rem;*/
+    /*width: 90%;*/
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--headingFont);
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem
+}
+
+img {
+    max-width: 100%;
+}
+
+/** Utilities **/
+.no-margin {
+    margin: 0; /** No separation is created between each box **/
+}
+
+.no-padding {
+    padding: 0; /** No space is created around an element (thick) **/
+}
+
+.center-text {
+    text-align: center;
+}
