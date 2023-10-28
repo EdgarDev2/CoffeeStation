@@ -1,0 +1,24 @@
+/** Register my custom properties **/
+:root {
+    --headingFont: 'PT Sans', sans-serif;
+    --paragraphsFont: 'Open Sans', sans-serif;
+    --primary: #784D3C;
+    --grey: #e1e1e1;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+html {
+    box-sizing: border-box; /** box model **/
+    font-size: 62.5%; /** 1rem = 10px **/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--paragraphsFont);
+    font-size: 1.6rem;
+    line-height: 2; /** line spacing **/
+}
