@@ -71,3 +71,62 @@ img {
 .center-text {
     text-align: center;
 }
+
+/** header **/
+.header {
+    background-image: url("../img/banner.jpg");
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header-text {
+    text-align: center;
+    color: var(--white);
+    margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+    .header-text {
+        margin-top: 15rem;
+    }
+}
+
+.bar {
+    padding-top: 4rem;
+}
+
+@media (min-width: 768px) {
+    .bar {
+        display: flex;
+        justify-content: space-between; /** Center horizontally **/
+        align-items: center; /** Center Vertically **/
+    }
+}
+
+.logo {
+    color: var(--white);
+}
+
+.logo__name {
+    font-weight: normal; /** 400 **/
+}
+
+.logo__bold {
+    font-weight: bold; /** 700 **/
+}
+
+@media (min-width: 768px) {
+    .navigation {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.navigation__link {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--white);
+}
