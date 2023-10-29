@@ -130,3 +130,44 @@ img {
     font-size: 1.8rem;
     color: var(--white);
 }
+
+/** Main cointainer **/
+@media (min-width: 768px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+
+.line {
+    border-bottom: 1px solid var(--grey);
+    margin-bottom: 2rem;
+}
+
+.line:last-of-type { /** Line that separates the articles **/
+    border: none;
+    margin-bottom: 0;
+}
+
+.button {
+    display: block;
+    font-family: var(--headingFont);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .button {
+        display: inline-block;
+    }
+}
+
+.primary--button {
+    background-color: var(--black);
+}
