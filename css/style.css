@@ -204,3 +204,10 @@ img {
 .widget-curso__info {
     font-size: 2rem;
 }
+
+/** footer style **/
+.footer {
+    background-color: var(--black);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
