@@ -178,10 +178,10 @@ img {
 }
 
 .courses {
-    list-style: none;
+    list-style: none; /** Used to remove markers or bullets **/
 }
 
-.widget-course {
+.widget-course { /** Is the line between boxes **/
     border-bottom: 1px solid var(--grey);
     margin-bottom: 2rem;
 }
